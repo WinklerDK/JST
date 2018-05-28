@@ -1,0 +1,430 @@
+html {
+    width: 100%;
+}
+
+.index {
+    background-image: url(../images/hus1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+
+p {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+h1 {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
+.background{
+    background-color: #80b5e7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 95%;
+}
+
+/* header codes start  */
+
+.logohome {
+    width: 12%;
+    display: inline-block;
+    position: absolute;
+    left: 3%;
+    top: 8%;
+}
+
+.menu {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 9%;
+}
+    
+.menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 150%;
+    float: right;
+
+    }
+    
+    
+    .menu a{
+    text-decoration: none;
+    color: #c28853;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+}
+    
+    .menu a:hover {
+        background-color: #80b5e7;
+        color: black;
+    }
+
+.active {
+    background-color: #80b5e7;
+}
+
+/* header codes end */
+
+/* footer codes start */
+
+.indexfooter {
+    width: 100%;
+    background-color: grey;
+    margin-top: 55%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 25%;
+
+}
+
+.projectsfooter {
+    width: 100%;
+    background-color: grey;
+    margin-top: 90%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 25%;
+}
+
+.contactfooter {
+    width: 100%;
+    background-color: grey;
+    margin-top: 40%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 25%;
+}
+
+.aboutfooter {
+    width: 100%;
+    background-color: grey;
+    margin-top: 70%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 25%;
+}
+
+footer {
+    width: 100%;
+    background-color: grey;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.logofooter {
+    width: 12%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.footericon1 {
+    width: 2%;
+}
+
+.footericon2 {
+    width: 2%
+}
+
+.footericon3 {
+    width: 2%;
+}
+
+.footertext {
+    display: inline-block;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}   
+
+span {
+    margin-left: 5%;
+}
+
+.footerelements {
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+}
+
+/* Footer codes end */
+
+/* Cantact Form taken from https://css-tricks.com/nice-and-simple-contact-form/ */ 
+#contact-area {
+	width: 600px;
+	margin-top: 3%;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 400px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+    margin-right: 12%;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+/* Contact Form End */
+
+/* Contact text */
+#contact-text {
+    display: inline-block;
+    width: 30%;
+    position: absolute; 
+    top: 30%;
+}
+
+.contacticon1 {
+    width: 7%;
+    margin-right: 5%;
+    margin-left: 20%;
+}
+
+.ctext2 {
+    display: inline-block;
+}
+
+.sm1 {
+    width: 10%;
+}
+
+.sm2 {
+    width: 9%;
+}
+
+.socialmedia {
+  position: absolute;
+  left: 63%;
+  top: 62%;
+}
+
+/* about.html css start*/
+
+.jacobbillede{
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.jacobtekst{
+    width: 40%;
+    color: #80b5e7;    
+    display:inline-block;   
+    margin-left: 10%;
+    margin-top:0%;
+}
+
+.jacob{
+    background-color: black;
+    border: solid black;
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 31%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.container > div{
+    margin: 5%;
+    padding: 20px;
+    background-color: black;
+    border: solid black;
+    
+}
+
+.p1 {
+    width: 257px;
+    color: #80b5e7;
+}
+
+/* projects.html */
+.snapwidget-widget {
+    margin-left: 27%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+#projectimage1 {
+    width: 25%;
+    margin-left: 19%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+#projectimage2 {
+    width: 25%;
+    margin-left: 55%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+#projectimage2:hover {
+    opacity: 0.7;
+}
+
+#projectimage1:hover {
+    opacity: 0.7;
+}
+
+/* Modal taget fra W3School
+/* Modal background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.projecttext {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+   display: inline-block;
+    width: 30%;
+    float: right;
+    margin-top: 3%;
+    margin-right: 15%;
+    font-size: 150%;
+    color: #80b5e7;
+}
+
+.projecttextreverse {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    position: absolute;
+    width: 30%;
+    top: 82%;
+    left: 20%;
+    font-size: 150%;
+    color: #80b5e7;
+}
+
+.boxbackground {
+    background-color: black;
+    border: solid black;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2%; 
+}
+
