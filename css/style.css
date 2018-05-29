@@ -143,15 +143,21 @@ footer {
 }
 
 .footericon1 {
-    width: 2%;
+    width: 5%;
+    display: inline-block;
+    padding-right:1%;
 }
 
 .footericon2 {
-    width: 2%
+    width: 5%;
+    display: inline-block;
+    padding-right: 1%;
 }
 
 .footericon3 {
-    width: 2%;
+    width: 5%;
+    display: inline-block;
+    padding-right: 1%;
 }
 
 .footertext {
@@ -159,12 +165,10 @@ footer {
     font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }   
 
-span {
-    margin-left: 5%;
-}
-
 .footerelements {
     text-align: center;
+    display: flex;
+    padding: 1%;
 }
 
 .copyright {
